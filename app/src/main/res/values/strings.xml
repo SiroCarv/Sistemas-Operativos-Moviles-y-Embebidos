@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Curso1KotlinLogin</string>
+    <string name="hint_username">Usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="content_desc_logo">Logo del curso Kotlin</string>
+    <string name="title_curso">curso kotlin</string>
+    <string name="btn_ingresar">Ingresar</string>
+</resources>

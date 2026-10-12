@@ -1,5 +1,6 @@
-package com.example.curso1kotlinlogin // ajusta al package real de tu proyecto
+package com.example.curso1kotlinlogin
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
@@ -23,6 +24,10 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Completa ambos campos", Toast.LENGTH_SHORT).show()
             } else {
                 Toast.makeText(this, "Bienvenido, $username", Toast.LENGTH_SHORT).show()
+
+                // Navegación hacia HomeActivity
+                val intent = Intent(this, HomeActivity::class.java)
+                startActivity(intent)
             }
         }
     }
